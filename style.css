@@ -10,7 +10,19 @@
     --dark-color: #000;
     --flower-color: #ffd700; /* Yellow color for flowers */
   }
-
+  .titulo {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    color: #FFD700; /* Código de color para amarillo */
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400; /* Reducir la negrita del texto */
+    max-width: 100%;
+    font-family: 'Dancing Script', cursive;
+}
 body {
   display: flex;
   align-items: flex-end;
@@ -19,8 +31,7 @@ body {
   background-color: var(--dark-color);
   overflow: hidden;
   perspective: 1000px;
-}
-
+} 
 .night {
   position: fixed;
   left: 50%;
